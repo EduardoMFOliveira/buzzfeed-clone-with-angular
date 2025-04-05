@@ -1,59 +1,50 @@
-# BuzzfeedClone
+# 🎯 BuzzFeed Clone com Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+[![Bootcamp](https://img.shields.io/badge/Decola_Tech_Avanade_2025-0078D4?style=flat)](https://www.avanade.com)
+[![Angular](https://img.shields.io/badge/Angular-17+-DD0031?style=flat&logo=angular&logoColor=white)](https://angular.io/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3+-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-## Development server
+## 📚 Sobre o Projeto
 
-To start a local development server, run:
+Clone do BuzzFeed desenvolvido como parte do Bootcamp **Decola Tech Avanade 2025**, com:
+
+- Frontend em **Angular 17+** 
+- Arquitetura **Standalone Components**
+- Sistema completo de quizzes interativos
+- Cálculo dinâmico de resultados
+- Design moderno e responsivo
+
+## 🛠️ Tecnologias
+
+### Frontend Principal
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
+
+### UI & Estilos
+![Angular Material](https://img.shields.io/badge/Angular_Material-3F51B5?style=for-the-badge&logo=angular&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Ferramentas
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+- Node.js 18+
+- Angular CLI 17+
+- NPM 9+
 
 ```bash
+# Clone o repositório
+git clone https://github.com/EduardoMFOliveira/buzzfeed-clone.git
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Acesse no navegador
+http://localhost:4200
