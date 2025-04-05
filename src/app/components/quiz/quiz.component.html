@@ -1,0 +1,28 @@
+<div class="quiz-container">
+    <div class="progress-bar">
+      <div class="progress" [style.width.%]="progress"></div>
+    </div>
+  
+    <div class="question-card">
+      <h1>{{ currentQuestion.text }}</h1>
+      
+      <div class="answers-container">
+        <div 
+          *ngFor="let answer of currentQuestion.answers"
+          class="answer-option"
+          [class.selected]="selectedAnswers.includes(answer.id)"
+          (click)="toggleAnswer(answer.id)"
+        >
+          {{ answer.text }}
+        </div>
+      </div>
+  
+      <button 
+        class="next-button"
+        (click)="nextQuestion()"
+        [disabled]="selectedAnswers.length === 0"
+      >
+        {{ quizService.hasNextQuestion() ? 'Próxima' : 'Ver Resultado' }}
+      </button>
+    </div>
+  </div>
